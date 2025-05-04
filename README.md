@@ -25,6 +25,9 @@ public static BigInteger[] PowersOfTwo(int n)
         .ToArray();
 }
 ```
+```csharp
+public static string RepeatString(int n, string s) => string.Concat(Enumerable.Repeat(s, n));
+```
 
 **Example (For Maximum Performance):**
 
@@ -37,6 +40,21 @@ public static BigInteger[] PowersOfTwo_ForLoop(int n)
         result[i] = BigInteger.Pow(2, i);
     }
     return result;
+}
+```
+
+```csharp
+public static string RepeatStr(int n, string s)
+{
+    if (n <= 0 || string.IsNullOrEmpty(s))
+        return string.Empty;
+    
+    var sb = new StringBuilder();
+    for (int i = 0; i < n; i++)
+    {
+        sb.Append(s);
+    }
+    return sb.ToString();
 }
 ```
 

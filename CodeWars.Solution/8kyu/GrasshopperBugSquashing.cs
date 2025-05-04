@@ -21,7 +21,7 @@ public class GrasshopperBugSquashing
         }
     }
 
-    // These methods are made to avoid error caused by missing implementation
+    // These methods are made to avoid error caused by missing implementation.
     private static void BuyHealth() => throw new NotImplementedException();
     private static void Combat() => throw new NotImplementedException();
     private static void GetCoins() => throw new NotImplementedException();
