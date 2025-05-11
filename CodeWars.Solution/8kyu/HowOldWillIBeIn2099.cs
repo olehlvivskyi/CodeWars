@@ -9,7 +9,9 @@ public class HowOldWillIBeIn2099
         public static string CalculateAge(int birth, int yearTo) 
         {
             int ageDifference = yearTo - birth;
-            string yearOrYears = Math.Abs(ageDifference) == 1 ? "year" : "years";
+            string yearOrYears = Math.Abs(ageDifference) == 1 
+                ? "year" 
+                : "years";
             
             return ageDifference switch
             {

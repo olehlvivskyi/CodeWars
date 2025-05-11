@@ -11,7 +11,9 @@ public class FakeBinaryKata
         StringBuilder sb = new(x.Length);
         foreach (var ch in x)
         {
-            sb.Append(ch < '5' ? 0 : 1);
+            sb.Append(ch < '5' 
+                ? 0 
+                : 1);
         }
         return sb.ToString();
     }
