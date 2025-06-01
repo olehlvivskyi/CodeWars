@@ -4,7 +4,7 @@ namespace CodeWars.Solution._8kyu;
 // https://www.codewars.com/kata/5748838ce2fab90b86001b1a
 public class AreaOfASquare
 { 
-    // Solved with help of https://www.ncl.ac.uk/webtemplate/ask-assets/external/maths-resources/core-mathematics/geometry/geometry-of-a-circle.html
+    // NOTE: Solved with help of https://www.ncl.ac.uk/webtemplate/ask-assets/external/maths-resources/core-mathematics/geometry/geometry-of-a-circle.html
     public class Kata
     {
         public static double SquareArea(double A)
